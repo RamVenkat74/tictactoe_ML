@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python src/gui.py)",
+      "Bash(python d:\\\\tictactoe-ql\\\\src\\\\gui.py)"
+    ]
+  }
+}
