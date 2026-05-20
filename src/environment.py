@@ -97,4 +97,4 @@ class TicTacToe:
         return ("\n" + "-" * 9 + "\n").join(rows)
 
     def __repr__(self) -> str:
-        return f"TicTacToe(done={self.done}, winner={self.SYMBOLS.get(self.winner, '?')})"
+        return f"TicTacToe(done={self.done}, winner={self.SYMBOLS[self.winner] if self.winner is not None else '?'})"
